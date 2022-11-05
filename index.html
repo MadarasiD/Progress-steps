@@ -9,20 +9,19 @@
 </head>
 <body>
     <div class="container">
+    <div id="progress">
+        <div id="progress-bar"></div>
+        <ul id="progress-num">
+          <li class="step active">1</li>
+          <li class="step">2</li>
+          <li class="step">3</li>
+          <li class="step">4</li>
+        </ul>
+      </div>
 
-        <div class="progress-container">
-            <div class="progress" id="progress">
-                <div class="circle active">1</div>
-                <div class="circle ">2</div>
-                <div class="circle ">3</div>
-                <div class="circle ">4</div>
-            </div>
-        </div>
-
-        <button class="btn" id="prev">Előző</button>
-        <button class="btn" id="next">Következő</button>
-
-    </div>
+        <button id="progress-prev" class="btn" disabled>Prev</button>
+        <button id="progress-next" class="btn">Next</button>
+</div>
 
     <script src="script.js"></script>
 </body>
